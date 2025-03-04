@@ -1,8 +1,6 @@
 
 public class L3Variables {
 	
-	// Wir deklarieren eine Variable, was passiert mit dem Speicher?
-	
 	public static void main(String[] args) {
 	
 		/*
@@ -23,6 +21,9 @@ public class L3Variables {
 		float verguetung; // 32 Bit
 		double notenDurchschnitt; // 64 Bit
 		
+		// Was passiert mit einer Variable, die deklariert aber nicht initialisiert wird?
+		// Kein Speicherplatz wird in Anspruch genommen
+		
 		// Initialisierung der Variablen
 		name = "\"Ertu\"";
 		monatAusbildungsbeginn = 9;
@@ -32,7 +33,7 @@ public class L3Variables {
 		inAusbildung = true;
 		verguetung = 0.1f; // Dezimalpunkt statt -komma
 		notenDurchschnitt = 5.0;
-		char kursname = 'k'; // 16 Bit, in einfache Hochkomma, Warum?
+		char kursname = 'k'; // 16 Bit, in einfache Hochkomma, Hintergrund Unicode support
 		
 		// Ausgabe
 		// Die Methode println kann offenbar mit verschiedenen Datentypen umgehen
@@ -44,8 +45,7 @@ public class L3Variables {
 		System.out.println(inAusbildung);
 		System.out.println(verguetung);
 		System.out.println(notenDurchschnitt);
-		System.out.println(kursname);
-		
+		System.out.println(kursname);	
 		
 		// Nach der geschweiften Klammer stehen die Variablen nicht mehr zur Verfügung
 	}

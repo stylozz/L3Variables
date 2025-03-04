@@ -1,3 +1,6 @@
 # Java - Zu ignorierende Dateien
 *.bat
 *.class
+# Java - Zu ignorierende Dateien
+*.bat
+*.class
